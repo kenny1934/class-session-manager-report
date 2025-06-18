@@ -58,8 +58,6 @@ The repository should have the following structure:
 
 ### 3. Publishing with GitHub Pages
 
-If you haven't done so already, you need to enable GitHub Pages for this repository:
-
 1.  In your repository on GitHub, go to the **"Settings"** tab.
 2.  In the left sidebar, click on **"Pages"**.
 3.  Under the "Build and deployment" section, for "Source", select **"Deploy from a branch"**.
@@ -68,5 +66,3 @@ If you haven't done so already, you need to enable GitHub Pages for this reposit
 6.  GitHub will generate a public URL for your site. It can take a few minutes to become active. You will see the URL at the top of the "Pages" settings screen once it's ready.
 
 ---
-
-This `README.md` provides clear instructions for anyone (including your future self) on how to manage and deploy this report page.
