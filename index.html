@@ -52,7 +52,9 @@
                     </svg>
                     <span class="text-xl font-bold text-gray-800">System Report</span>
                 </div>
-                <div class="hidden md:flex items-center space-x-6 text-gray-600">
+                <!-- CHANGED space-x-6 to space-x-8 for more room -->
+                <div class="hidden md:flex items-center space-x-8 text-gray-600">
+                    <a href="#quick-links" class="hover:text-indigo-600 transition-colors">Quick Links</a>
                     <a href="#introduction" class="hover:text-indigo-600 transition-colors">Introduction</a>
                     <a href="#components" class="hover:text-indigo-600 transition-colors">Components</a>
                     <a href="#features" class="hover:text-indigo-600 transition-colors">Features</a>
@@ -64,7 +66,7 @@
         </div>
     </nav>
 
-    <!-- Main Content Container -->
+        <!-- Main Content Container -->
     <div class="max-w-4xl mx-auto p-4 sm:p-6 lg:p-8">
 
         <!-- Header -->
@@ -77,6 +79,24 @@
 
         <!-- Main Sections -->
         <main class="space-y-16">
+            
+            <section id="quick-links">
+                <h3 class="text-2xl font-bold text-gray-900 pb-2 mb-4 border-b-2 border-indigo-200">System Quick Links</h3>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-6 text-center">
+                    <a href="https://scribehow.com/embed/How_to_Use_2025_Responses__bxQePSD5Qn2D-tXOJKI9GA" target="_blank" class="block p-4 bg-indigo-500 hover:bg-indigo-600 text-white font-semibold rounded-lg shadow-md transition-transform transform hover:-translate-y-1">
+                        <div class="text-lg">User Tutorial</div>
+                        <div class="text-sm font-normal">(ScribeHow)</div>
+                    </a>
+                    <a href="https://docs.google.com/document/d/1JTwItRNsW4KAEIJJ4yDIafAcFmQs_fb2OSeyV3pYwQM" target="_blank" class="block p-4 bg-gray-600 hover:bg-gray-700 text-white font-semibold rounded-lg shadow-md transition-transform transform hover:-translate-y-1">
+                        <div class="text-lg">README</div>
+                        <div class="text-sm font-normal">(Google Doc)</div>
+                    </a>
+                    <a href="https://www.appsheet.com/start/3dad2e47-3548-4a9d-8dd2-b698eb628787" target="_blank" class="block p-4 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg shadow-md transition-transform transform hover:-translate-y-1">
+                        <div class="text-lg">Open CSM App</div>
+                        <div class="text-sm font-normal">(Web Version)</div>
+                    </a>
+                </div>
+            </section>
             
             <!-- Introduction Section -->
             <section id="introduction">
